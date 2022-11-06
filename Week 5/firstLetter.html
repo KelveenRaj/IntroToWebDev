@@ -2,17 +2,30 @@
 <html>
   <head>
     <style>
-      p::first-letter {
-        font-size: 200%;
-        color: #8a2be2;
+      p {
+        line-height: 1.5;
+        width: 500px;
+      }
+      #purple::first-letter {
+        color: white;
+        background-color: black;
+        border-radius: 2px;
+        box-shadow: 3px 3px 0 red;
+        font-size: 250%;
+        padding: 6px 3px;
+        margin-right: 6px;
+        float: left;
       }
     </style>
   </head>
   <body>
     <h1>Demo of the ::first-letter selector</h1>
 
-    <p>My name is Donald.</p>
-    <p>I live in Duckburg.</p>
-    <p>My best friend is Mickey.</p>
+    <p id="purple">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+      eveniet dolor, ex rerum ullam minus nulla deserunt aperiam incidunt
+      pariatur laudantium, similique odio quibusdam excepturi repellendus
+      assumenda nemo sequi. Repellat!
+    </p>
   </body>
 </html>
