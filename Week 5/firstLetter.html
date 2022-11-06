@@ -6,7 +6,7 @@
         line-height: 1.5;
         width: 500px;
       }
-      #purple::first-letter {
+      .style > p::first-letter {
         color: white;
         background-color: black;
         border-radius: 2px;
@@ -16,16 +16,21 @@
         margin-right: 6px;
         float: left;
       }
+      .style:hover > p::first-letter{
+        color: yellow;
+
+      }
     </style>
   </head>
   <body>
     <h1>Demo of the ::first-letter selector</h1>
-
-    <p id="purple">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-      eveniet dolor, ex rerum ullam minus nulla deserunt aperiam incidunt
-      pariatur laudantium, similique odio quibusdam excepturi repellendus
-      assumenda nemo sequi. Repellat!
-    </p>
+    <div class="style">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        eveniet dolor, ex rerum ullam minus nulla deserunt aperiam incidunt
+        pariatur laudantium, similique odio quibusdam excepturi repellendus
+        assumenda nemo sequi. Repellat!
+      </p>
+      </div>
   </body>
 </html>
