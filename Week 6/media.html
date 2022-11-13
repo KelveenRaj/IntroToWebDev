@@ -7,23 +7,39 @@
         color: black;
       }
 
+      #cat {
+        width: 400px;
+        height: 400px;
+      }
+
+      /* this is a laptop screen */
       @media (max-width: 650px) {
-        body {
+        h1 {
           background-color: blue;
           color: white;
         }
+        #cat {
+          width: 200px;
+          height: 200px;
+        }
       }
 
+      /* this is a phone screen */
       @media (max-width: 400px) {
-        body {
+        h1 {
           background-color: black;
           color: white;
+        }
+        #cat {
+          width: 50px;
+          height: 50px;
         }
       }
     </style>
   </head>
   <body>
     <h1>Resize the browser window to see the effect!</h1>
+    <img id="cat" src="Cat.jpg" />
     <p>
       By default, the background color of the document is "tan". If the screen
       size is 650px or less, the color will change to "blue". If it is 400px or
