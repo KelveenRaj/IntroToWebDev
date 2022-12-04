@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="square"></div>
+
+    <script>
+        // Selecting the HTML element and assigning it to a variable called square
+        var square = document.getElementById("square")
+
+        
+        // function that can accept a html element and change its color to blue
+        function changeColor(element){
+            element.style.backgroundColor = "blue"
+        }
+
+        // passing the square element into the function
+        changeColor(square)
+    </script>
+
+</body>
+</html>

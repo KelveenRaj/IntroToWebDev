@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>The Element Object</h1>
+    <h2>The getElementsByTagName() Method</h2>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+    </ul>
+
+    <p>Click "Change" to change the text of the first list item.</p>
+    <button onclick="myFunction()">Change</button>
+
+    <script>
+      function myFunction() {
+        const list = document.getElementsByTagName("UL")[0];
+        list.getElementsByTagName("li")[0].innerHTML = "Milk";
+      }
+    </script>
+  </body>
+</html>
