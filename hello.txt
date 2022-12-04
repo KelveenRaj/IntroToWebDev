@@ -1,4 +1,3 @@
 Hello there
 https://www.w3schools.com/js/exercise_js.asp
 
-Hello there how are u
