@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example 1</title>
+
+    <style>
+      .button {
+        background-color: lightblue;
+        width: 80px;
+        height: 20px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example of events in HTML</h1>
+
+    <div
+      class="button"
+      onmouseover="SetColor(this, 'blue')"
+      onmouseleave="SetColor(this, 'lightblue')"
+      onclick="SetColor(this, 'pink')"
+    >
+      Button
+    </div>
+
+    <!-- simple function to set color based on element and color provided -->
+    <script>
+      function SetColor(element, color) {
+        element.style.backgroundColor = color;
+      }
+    </script>
+  </body>
+</html>

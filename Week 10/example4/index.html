@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .box {
+        background-color: orange;
+        width: 90px;
+        height: 20px;
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h2>JavaScript mouseDown and mouseUp</h2>
+
+    <div class="box" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)">
+      Click Me
+    </div>
+
+    <script>
+      function mouseDown(obj) {
+        obj.style.backgroundColor = "#1ec5e5";
+        obj.innerHTML = "Release Me";
+      }
+
+      function mouseUp(obj) {
+        obj.style.backgroundColor = "orange";
+        obj.innerHTML = "Thank You";
+      }
+    </script>
+  </body>
+</html>

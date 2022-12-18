@@ -1,3 +1,5 @@
 Hello there
 https://www.w3schools.com/js/exercise_js.asp
 
+Week 10 JavaScript exercise
+https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_dom_html1
