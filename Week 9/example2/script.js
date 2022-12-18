@@ -8,6 +8,9 @@ button.onclick = () => {
   console.log("Print 2");
 };
 
+
+button.addEventListener("click", () )
+
 button.addEventListener("input", () => {
   console.log("Print 3");
 });
